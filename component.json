@@ -1,0 +1,15 @@
+{
+  "name": "UI-notice",
+  "version": "1.0.0",
+  "description": "Стили для уведомлений",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/ui-notice",
+  "props": {
+    "common": false,
+    "liquid": false
+  },
+  "dependencies": {
+    "scss_variables": "https://github.com/insales-components/scss_variables"
+  }
+}

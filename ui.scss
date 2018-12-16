@@ -1,0 +1,80 @@
+.notice {
+	padding: 1rem 1rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	line-height: 1.2;
+}
+.error,
+.status-warning,
+.notice {
+	font-size: $font-size-primary;
+}
+
+.notice:last-child {
+	margin-bottom: 0;
+}
+
+.notice h2 {
+	margin-top: 0;
+	color: inherit;
+}
+
+.notice > p + p {
+	margin-top: 5px;
+}
+
+.notice.is-error {
+	background-color: $color-error;
+	border-color: darken($color-error, 5%);
+	color: #fff;
+}
+
+.notice.is-error hr {
+	border-top-color: $color-error;
+}
+
+.notice.is-error a {
+	color: #210001;
+}
+
+.notice.is-info {
+	background-color: $color-info;
+	border-color: darken($color-info, 5%);
+	color: $color-text-primary;
+}
+
+.notice.is-info hr {
+	border-top-color: $color-info;
+}
+
+.notice.is-info a {
+	color: #0a2730;
+}
+
+.notice.is-warning {
+	background-color: $color-warning;
+	border-color: darken($color-warning, 5%);
+	color: #ffffff;
+}
+
+.notice.is-warning hr {
+	border-top-color: $color-warning;
+}
+
+.notice.is-warning a {
+	color: #3a2405;
+}
+
+.notice.is-success {
+	background-color: $color-success;
+	border-color: darken($color-success, 5%);
+	color: #ffffff;
+}
+
+.notice.is-success hr {
+	border-top-color: $color-success;
+}
+
+.notice.is-success a {
+	color: #060f06;
+}
